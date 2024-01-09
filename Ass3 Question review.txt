@@ -1,0 +1,8 @@
+Regarding if the tree is undirect or not it doesnt matter as we inspect two main things to Determine in the Graph :
+
+(First)=>Look out for cycles: Use either breadth-first search (BFS) or depth-first search (DFS) to search the graph for cycles. If a visited node (other than the parent node) is encountered more than once, the graph is not a tree; this suggests a cycle.
+
+(Second)=>Verify your connectivity: Ensure that each node is visited by the traversal. If there are disconnected components or any nodes that are not visited, the graph is not connected and is not a tree.
+
+
+Result: Time Complexity => O(V + E).
